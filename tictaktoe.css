@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.contianer {
+    background-image: url("https://res.cloudinary.com/dp8gu4t9m/image/upload/v1721622639/wp8984722-tic-tac-toe-wallpapers_cgftqg.jpg");
+    height: 100vh;
+    background-size: cover;
+
+
+}
+p{
+    font-variant: small-caps;
+}
+
+h1 {
+    color: rgb(122, 42, 12);
+    font-size: 45px;
+     font-family: "Audiowide", sans-serif;
+    padding-top:20px;
+
+
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+    font-family: Verdana,Geneva, Tahoma, sans-serif;
+     color:white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Main Contianer */
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: rgb(41, 44, 48);
+    font-size: 17px;
+}
